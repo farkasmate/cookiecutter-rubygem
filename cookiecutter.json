@@ -1,5 +1,10 @@
 {
-  "name": "my_coockiecutter",
-  "repo_name": "cookiecutter-{{ cookiecutter.name }}",
-  "github_username": "my_github_username"
+  "name": "my_gem",
+  "repo_name": "rubygem-{{ cookiecutter.name }}",
+  "class_name": "{{ cookiecutter.name.title().replace('_', '') }}",
+  "summary": "My Gem",
+  "full_name": "My Name",
+  "email": "my.name@example.com",
+  "github_username": "my_github_username",
+  "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}"
 }
