@@ -1,4 +1,6 @@
-require "{{ cookiecutter.name }}/version"
+# frozen_string_literal: true
+
+require '{{ cookiecutter.name }}/version'
 
 module {{ cookiecutter.class_name }}
   class Error < StandardError; end
