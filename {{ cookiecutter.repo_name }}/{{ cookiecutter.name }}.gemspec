@@ -11,6 +11,8 @@ Gem::Specification.new do |spec|
   spec.summary       = '{{ cookiecutter.summary }}'
   spec.homepage      = '{{ cookiecutter.homepage }}'
 
+  spec.metadata['rubygems_mfa_required'] = 'true'
+
   spec.required_ruby_version = Gem::Requirement.new('~> 3.0')
 
   # Specify which files should be added to the gem when it is released.
